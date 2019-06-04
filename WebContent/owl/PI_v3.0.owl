@@ -1,0 +1,1424 @@
+<?xml version="1.0"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns="http://www.owl-ontologies.com/OntologyPI.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+    xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+    xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xml:base="http://www.owl-ontologies.com/OntologyPI.owl" > 
+  <rdf:Description rdf:about="#贝母花片">
+    <具有中药材成分 rdf:resource="#贝母"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#清宁丸">
+    <具有中药材成分 rdf:resource="#大黄"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#四环素">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#抗生素"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#西药碱性">
+    <rdf:type rdf:resource="#西药性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#酶">
+    <rdf:type rdf:resource="#化学物质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#细辛">
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#泰诺">
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#黄连上清丸">
+    <具有中药材成分 rdf:resource="#桔梗"/>
+    <具有中药材成分 rdf:resource="#石膏"/>
+    <具有中药材成分 rdf:resource="#黄连"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#可乐定">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#维生素B6">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#布洛芬">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <具有西药性质 rdf:resource="#非甾体抗炎药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方磺胺甲噁唑片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#磺胺"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#吗啡">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#灯盏细辛胶囊">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#细辛"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#地榆升白片">
+    <具有中药材成分 rdf:resource="#地榆"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#槐角丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#槐角"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#杏仁止咳糖浆">
+    <具有中药材成分 rdf:resource="#杏仁"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#善存">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#维生素B1"/>
+    <具有化学成分 rdf:resource="#维生素C"/>
+    <具有化学成分 rdf:resource="#维生素B6"/>
+    <具有离子成分 rdf:resource="#钠离子"/>
+    <具有离子成分 rdf:resource="#钙离子"/>
+    <具有离子成分 rdf:resource="#镁离子"/>
+    <具有离子成分 rdf:resource="#钾离子"/>
+    <具有离子成分 rdf:resource="#铝离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#百合固金丸">
+    <具有中药材成分 rdf:resource="#桔梗"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <具有中药材成分 rdf:resource="#大黄"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#铝离子">
+    <rdf:type rdf:resource="#金属离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#龙胆泻肝丸">
+    <具有中药材成分 rdf:resource="#龙胆"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#优降宁">
+    <具有化学成分 rdf:resource="#单胺氧化酶"/>
+    <具有化学成分 rdf:resource="#异烟肼"/>
+    <具有西药性质 rdf:resource="#降压"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#石膏二十五味散">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#石膏"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氨苯蝶啶片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#保钾"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#化合物">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#化学物质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#洋地黄">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#颠茄">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#生物碱"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#急支糖浆">
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <具有中药材成分 rdf:resource="#麻黄"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#川贝枇枇粑露">
+    <具有中药性质 rdf:resource="#中药碱性"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#九制大黄丸">
+    <具有中药材成分 rdf:resource="#大黄"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#昆布">
+    <具有离子成分 rdf:resource="#碘离子"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#多酶片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#酶"/>
+    <具有西药性质 rdf:resource="#还原性强"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方蟾酥丸">
+    <具有中药材成分 rdf:resource="#蟾酥"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#水合氯醛">
+    <rdf:type rdf:resource="#无机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#银翘解毒片">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#桔梗"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#润肺止嗽丸">
+    <具有中药材成分 rdf:resource="#杏仁"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#巴比妥">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#唯康乐">
+    <具有离子成分 rdf:resource="#钙离子"/>
+    <具有离子成分 rdf:resource="#铁离子"/>
+    <具有化学成分 rdf:resource="#维生素B6"/>
+    <具有化学成分 rdf:resource="#维生素B1"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#木香槟榔丸">
+    <具有中药性质 rdf:resource="#中药碱性"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#蒽醌">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#咖啡因">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方丹参片">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#丹参"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫化物">
+    <rdfs:subClassOf rdf:resource="#无机化合物"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方消化酶胶囊">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#酶"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫酸盐">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#无机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氟尿嘧啶注射液">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#氟尿嘧啶"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#优降糖">
+    <具有西药性质 rdf:resource="#降糖"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#济仁">
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#牛黄">
+    <具有离子成分 rdf:resource="#铝离子"/>
+    <具有离子成分 rdf:resource="#钙离子"/>
+    <具有离子成分 rdf:resource="#镁离子"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#盐酸异丙嗪片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#异丙嗪"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#鹿茸">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#肾上腺激素"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#人参健脾丸">
+    <具有中药材成分 rdf:resource="#人参"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#茵陈">
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫化砷">
+    <rdf:type rdf:resource="#硫化物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#消化酶">
+    <rdf:type rdf:resource="#化学物质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#吡嗪酰胺片">
+    <具有化学成分 rdf:resource="#异烟肼"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#中药材成分">
+    <rdfs:subClassOf rdf:resource="#中药成分或性质"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#具有化学成分">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:domain rdf:nodeID="A0"/>
+    <rdfs:range rdf:resource="#化学物质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#胃得乐">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有离子成分 rdf:resource="#钠离子"/>
+    <具有离子成分 rdf:resource="#镁离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#巴豆">
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#款冬花散">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#款冬花"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#龙鹿胶囊">
+    <具有中药材成分 rdf:resource="#石榴皮"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#贝可力">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#地高辛"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#乳酶生片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#酶"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#碳酸氢钠片">
+    <具有离子成分 rdf:resource="#钠离子"/>
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#酪氨酸"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#苏合香丸">
+    <具有中药材成分 rdf:resource="#朱砂"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#乌梅丸">
+    <具有中药性质 rdf:resource="#中药酸性"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#具有离子成分">
+    <rdfs:range rdf:resource="#离子"/>
+    <rdfs:domain rdf:nodeID="A1"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方氢氧化铝片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有离子成分 rdf:resource="#铝离子"/>
+    <具有西药性质 rdf:resource="#还原性强"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#柴胡">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#皂苷"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#石榴皮">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#鞣质"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A2">
+    <rdf:first rdf:resource="#中药材成分"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#牛黄解毒丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#石膏"/>
+    <具有中药材成分 rdf:resource="#冰片"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <具有中药材成分 rdf:resource="#牛黄"/>
+    <具有中药材成分 rdf:resource="#大黄"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#他巴唑片">
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硝苯地平片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#降压"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#普萘洛尔">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氨甲环酸片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#肝素"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#乳酸菌素片">
+    <具有化学成分 rdf:resource="#磺胺"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方甘草片">
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方降压片">
+    <具有化学成分 rdf:resource="#可乐定"/>
+    <具有化学成分 rdf:resource="#异烟肼"/>
+    <具有西药性质 rdf:resource="#降压"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#当归">
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#双黄连口服液">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#黄连"/>
+    <具有中药性质 rdf:resource="#中药碱性"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#大黄利胆胶囊">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#大黄"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#甘草">
+    <具有化学成分 rdf:resource="#肾上腺激素"/>
+    <具有化学成分 rdf:resource="#糖皮质激素"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A1">
+    <owl:unionOf rdf:nodeID="A3"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#肝素">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#人参酒">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#人参"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#大活络丸">
+    <具有中药性质 rdf:resource="#中药碱性"/>
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#麻黄"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#罗红霉素片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#抗生素"/>
+    <具有化学成分 rdf:resource="#红霉素"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#巴氏合剂">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#还原性强"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#钙尔奇">
+    <具有离子成分 rdf:resource="#钙离子"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氨茶碱片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#氨茶碱"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#阿莫西林">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#抗生素"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#西地碘含片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有离子成分 rdf:resource="#碘离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#胍乙啶片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#胍乙啶"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#人参鹿茸丸">
+    <具有中药材成分 rdf:resource="#人参"/>
+    <具有中药材成分 rdf:resource="#鹿茸"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#阿托品">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#维生素B1">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#雄黄">
+    <具有化学成分 rdf:resource="#硫化砷"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#禁忌">
+    <rdfs:range rdf:nodeID="A4"/>
+    <rdfs:domain rdf:nodeID="A5"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A0">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="A6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#磁石">
+    <具有化学成分 rdf:resource="#酶"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有离子成分 rdf:resource="#铁离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#桑菊感冒片">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#杏仁"/>
+    <具有中药材成分 rdf:resource="#桔梗"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#维生素C片">
+    <具有化学成分 rdf:resource="#维生素C"/>
+    <具有化学成分 rdf:resource="#巴比妥"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#百赛诺">
+    <具有化学成分 rdf:resource="#酶"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#银杏露">
+    <具有中药材成分 rdf:resource="#银杏"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#蛇胆川贝枇杷膏">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#蛇胆"/>
+    <具有中药材成分 rdf:resource="#桔梗"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#甲硝唑">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#降糖灵">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#降糖"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#胍乙啶">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方黄连素片">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#黄连"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氟尿嘧啶">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氨基比林咖啡因片">
+    <具有化学成分 rdf:resource="#咖啡因"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#有机化合物">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#磺胺">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#参苏丸">
+    <具有中药材成分 rdf:resource="#桔梗"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#三七片">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#三七"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#奎尼丁">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氰甙">
+    <rdf:type rdf:resource="#无机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#吗啡注射液">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#吗啡"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#补心丹">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#单质">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#化学物质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#钾离子">
+    <rdf:type rdf:resource="#金属离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#鞣质">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#行军散">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药性质 rdf:resource="#中药碱性"/>
+    <具有中药材成分 rdf:resource="#冰片"/>
+    <具有中药材成分 rdf:resource="#石膏"/>
+    <具有中药材成分 rdf:resource="#雄黄"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#蛇胆川贝液">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药性质 rdf:resource="#中药酸性"/>
+    <具有中药材成分 rdf:resource="#蛇胆"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#六君子丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#参茸片">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#鹿茸"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#六神丸">
+    <具有中药材成分 rdf:resource="#蟾酥"/>
+    <具有中药材成分 rdf:resource="#雄黄"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#抗生素">
+    <rdf:type rdf:resource="#化学物质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#大黄">
+    <具有化学成分 rdf:resource="#鞣质"/>
+    <具有化学成分 rdf:resource="#蒽醌"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有离子成分 rdf:resource="#镁离子"/>
+    <具有离子成分 rdf:resource="#钙离子"/>
+    <具有离子成分 rdf:resource="#铝离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#颠茄片">
+    <具有中药材成分 rdf:resource="#颠茄"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#非金属离子">
+    <rdfs:subClassOf rdf:resource="#离子"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#铁离子">
+    <rdf:type rdf:resource="#金属离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#磷酸钠盐口服溶液">
+    <具有西药性质 rdf:resource="#西药碱性"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#西药性质">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#羚翘解毒丸">
+    <具有中药材成分 rdf:resource="#桔梗"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A7">
+    <rdf:first rdf:resource="#西成药"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#盐酸吗啡缓释片">
+    <具有化学成分 rdf:resource="#吗啡"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#蛇胆陈皮口服液">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药性质 rdf:resource="#中药酸性"/>
+    <具有中药材成分 rdf:resource="#蛇胆"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#神曲丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#磁石"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#呋喃唑酮">
+    <具有化学成分 rdf:resource="#单胺氧化酶"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#黄连">
+    <具有化学成分 rdf:resource="#黄连素"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#止咳定喘丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#麻黄"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#香草醛片">
+    <具有西药性质 rdf:resource="#还原性强"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方盐酸阿米洛利片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <具有西药性质 rdf:resource="#保钾"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#保钾">
+    <rdf:type rdf:resource="#西药性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#感冒清热颗粒">
+    <具有中药材成分 rdf:resource="#杏仁"/>
+    <具有中药材成分 rdf:resource="#桔梗"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#盐酸丙哌维林片">
+    <具有化学成分 rdf:resource="#安定"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#离子">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#三七">
+    <具有化学成分 rdf:resource="#皂苷"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氧氟沙星">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#喹诺酮"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#七珍丹">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#朱砂"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#地塞米松片">
+    <具有化学成分 rdf:resource="#肾上腺激素"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方槐花胶囊">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#槐花"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方硫酸亚铁叶酸片">
+    <具有化学成分 rdf:resource="#硫酸亚铁"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <具有西药性质 rdf:resource="#还原性强"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#水杨酸">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#山楂丸">
+    <具有中药材成分 rdf:resource="#山楂"/>
+    <具有中药性质 rdf:resource="#中药酸性"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#异烟肼">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#D-860">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#降糖"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#安宫牛黄丸">
+    <具有中药材成分 rdf:resource="#雄黄"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#替硝唑">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#中药性质">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#中药成分或性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A8">
+    <rdf:first rdf:resource="#中成药"/>
+    <rdf:rest rdf:nodeID="A7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#利福平">
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <具有化学成分 rdf:resource="#巴比妥"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#生物碱西药">
+    <rdf:type rdf:resource="#西药性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方磷酸氢钠片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#西药碱性"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#朱砂安神丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#朱砂"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#金属离子">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#款冬花">
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#诺氟沙星">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#喹诺酮"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#麻黄">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#麻黄碱"/>
+    <具有化学成分 rdf:resource="#氰甙"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#替硝唑片">
+    <具有化学成分 rdf:resource="#替硝唑"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#水合氯醛溶液">
+    <具有化学成分 rdf:resource="#水合氯醛"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#牛黄蛇胆川贝散">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#蛇胆"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#紫雪丹">
+    <具有中药材成分 rdf:resource="#朱砂"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#清开灵口服液">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#龙胆"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#麦芽">
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A9">
+    <rdf:first rdf:resource="#西成药"/>
+    <rdf:rest rdf:nodeID="A10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#胃舒平">
+    <具有离子成分 rdf:resource="#镁离子"/>
+    <具有离子成分 rdf:resource="#铝离子"/>
+    <具有西药性质 rdf:resource="#西药碱性"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#地榆">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#鞣质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#人参">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#皂苷"/>
+    <具有化学成分 rdf:resource="#糖皮质激素"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#橘核丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#奥美拉唑肠溶胶囊">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#小苏打片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#西药碱性"/>
+    <具有离子成分 rdf:resource="#钠离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#汞离子">
+    <rdf:type rdf:resource="#金属离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#银杏">
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#丹参酮">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#虎杖">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#鞣质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#舒乐安定">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#安定"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#双歧三联活菌片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#磺胺"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方硫酸亚铁颗粒">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#还原性强"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <具有化学成分 rdf:resource="#硫酸亚铁"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氢氧化铝">
+    <rdf:type rdf:resource="#化学物质"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="A12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#胃蛋白酶口服液">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#酶"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#鼠李铋镁片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有离子成分 rdf:resource="#镁离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#呋塞米片">
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#中成药">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#龙胆">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#胆酸"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#吗丁啉">
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#康脑灵">
+    <具有化学成分 rdf:resource="#维生素B6"/>
+    <具有化学成分 rdf:resource="#维生素C"/>
+    <具有化学成分 rdf:resource="#维生素B1"/>
+    <rdf:type rdf:resource="#西成药"/>
+    <具有离子成分 rdf:resource="#钙离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#降糖">
+    <rdf:type rdf:resource="#西药性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#石斛夜光丸">
+    <具有中药材成分 rdf:resource="#人参"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#大仑丁片">
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#百炎净">
+    <具有化学成分 rdf:resource="#磺胺"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#地榆槐角丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#槐角"/>
+    <具有中药材成分 rdf:resource="#地榆"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#红霉素">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#盐酸普萘洛尔片">
+    <具有化学成分 rdf:resource="#普萘洛尔"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方川贝精">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#麻黄"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A12">
+    <rdf:rest rdf:nodeID="A13"/>
+    <rdf:first rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#糖皮质激素">
+    <rdf:type rdf:resource="#化学物质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#补中益气丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <具有中药材成分 rdf:resource="#柴胡"/>
+    <具有中药材成分 rdf:resource="#当归"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#咳必清">
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫酸奎尼丁片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#奎尼丁"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#橘红片">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#杏仁"/>
+    <具有中药材成分 rdf:resource="#桔梗"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <具有中药材成分 rdf:resource="#款冬花"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方虎杖片">
+    <具有中药材成分 rdf:resource="#虎杖"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#麻仁丸">
+    <具有中药材成分 rdf:resource="#杏仁"/>
+    <具有中药材成分 rdf:resource="#大黄"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#清暑益气丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <具有中药材成分 rdf:resource="#人参"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#非甾体抗炎药">
+    <rdf:type rdf:resource="#西药性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#人参再造丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#人参"/>
+    <具有中药材成分 rdf:resource="#麻黄"/>
+    <具有中药性质 rdf:resource="#中药碱性"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#降压">
+    <rdf:type rdf:resource="#西药性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#麻黄止嗽胶囊">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#麻黄"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氢氧化铝片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有离子成分 rdf:resource="#铝离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#人丹">
+    <具有中药材成分 rdf:resource="#朱砂"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#止咳丸">
+    <具有中药材成分 rdf:resource="#麻黄"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#碘离子">
+    <rdf:type rdf:resource="#非金属离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#桔梗">
+    <具有化学成分 rdf:resource="#皂苷"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#丹参">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#丹参酮"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#必理通">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#还原性强"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#酪氨酸">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#五味子丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药性质 rdf:resource="#中药酸性"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫酸胍乙啶片">
+    <具有化学成分 rdf:resource="#胍乙啶"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#黄连素">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氨基甙">
+    <rdf:type rdf:resource="#化学物质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫酸亚铁片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <具有离子成分 rdf:resource="#铁离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#养阴清肺丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <具有中药材成分 rdf:resource="#大黄"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#盐酸普罗帕酮片">
+    <具有化学成分 rdf:resource="#普罗帕酮"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A3">
+    <rdf:first rdf:resource="#西成药"/>
+    <rdf:rest rdf:nodeID="A14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#异丙嗪">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方桔梗止咳片">
+    <具有中药材成分 rdf:resource="#桔梗"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A10">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#肾上腺激素">
+    <rdf:type rdf:resource="#化学物质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#杏仁">
+    <具有化学成分 rdf:resource="#氰甙"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#生物碱">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氯雷他定片">
+    <具有离子成分 rdf:resource="#镁离子"/>
+    <具有离子成分 rdf:resource="#钙离子"/>
+    <具有离子成分 rdf:resource="#钠离子"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#山楂">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#槲皮素"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#泰美尼克">
+    <具有离子成分 rdf:resource="#钠离子"/>
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#喹诺酮"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#槐花">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#槲皮素"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#具有中药材成分">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+    <rdfs:range rdf:resource="#中药材成分"/>
+    <rdfs:domain rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#酪胺">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#安定">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#七厘散">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#朱砂"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#甲硝唑片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#甲硝唑"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#异丁苯丙酸">
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#秋水仙碱">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#喹诺酮">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氯霉素片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#抗生素"/>
+    <具有化学成分 rdf:resource="#氯霉素"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#无机化合物">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="#化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#黄连上清片">
+    <具有中药材成分 rdf:resource="#黄连"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#哮喘姜胆片">
+    <具有中药材成分 rdf:resource="#蛇胆"/>
+    <具有中药材成分 rdf:resource="#龙胆"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#牡蛎">
+    <具有离子成分 rdf:resource="#钙离子"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方甘草合剂">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#单胺氧化酶">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#环丙沙星">
+    <具有化学成分 rdf:resource="#喹诺酮"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#胃康胶囊">
+    <具有中药材成分 rdf:resource="#三七"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#抗病毒口服液">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#石膏"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#胃肠安丸">
+    <具有中药材成分 rdf:resource="#巴豆"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#地高辛">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫糖铝咀嚼片">
+    <具有离子成分 rdf:resource="#铝离子"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#健脑补肾丸">
+    <具有中药材成分 rdf:resource="#朱砂"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#补达秀">
+    <具有化学成分 rdf:resource="#洋地黄"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#昆布胶囊">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#昆布"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#维生素C">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#盐酸二氢埃托啡舌下片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#还原性强"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <具有化学成分 rdf:resource="#吗啡"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#槲皮素">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方金银花颗粒">
+    <具有中药性质 rdf:resource="#中药酸性"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#西成药">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#石膏">
+    <具有离子成分 rdf:resource="#钙离子"/>
+    <具有离子成分 rdf:resource="#镁离子"/>
+    <具有离子成分 rdf:resource="#钾离子"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#钠离子">
+    <rdf:type rdf:resource="#金属离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#樟脑水合氯醛酊">
+    <具有化学成分 rdf:resource="#水合氯醛"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#钙离子">
+    <rdf:type rdf:resource="#金属离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#蟾酥">
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#三黄片">
+    <具有中药材成分 rdf:resource="#黄连"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#藏茵陈胶囊">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#茵陈"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#普罗帕酮">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#谷氨酸">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#洛赛克">
+    <具有离子成分 rdf:resource="#铝离子"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A13">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+    <rdf:first rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#活络丹">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药性质 rdf:resource="#中药碱性"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#诺百益">
+    <具有西药性质 rdf:resource="#西药碱性"/>
+    <rdf:type rdf:resource="#西成药"/>
+    <具有离子成分 rdf:resource="#钠离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#土霉素">
+    <具有化学成分 rdf:resource="#抗生素"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方枇杷糖浆">
+    <具有中药材成分 rdf:resource="#麻黄"/>
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药性质 rdf:resource="#中药碱性"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#化学物质">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#还原性强">
+    <rdf:type rdf:resource="#西药性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#元胡">
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#具有中药性质">
+    <rdfs:domain rdf:resource="#中成药"/>
+    <rdfs:range rdf:resource="#中药性质"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#阿司匹林">
+    <具有化学成分 rdf:resource="#水杨酸"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <具有西药性质 rdf:resource="#非甾体抗炎药"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#藿香正气丸">
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <具有中药材成分 rdf:resource="#桔梗"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#小柴胡颗粒">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#柴胡"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫酸阿托品片">
+    <具有化学成分 rdf:resource="#阿托品"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <具有西药性质 rdf:resource="#还原性强"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#阿托品片">
+    <具有化学成分 rdf:resource="#阿托品"/>
+    <具有化学成分 rdf:resource="#生物碱"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#达美康">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#降糖"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#四子填精胶囊">
+    <具有中药材成分 rdf:resource="#石榴皮"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氯霉素">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#麻黄碱">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#西药酸性">
+    <rdf:type rdf:resource="#西药性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#具有西药性质">
+    <rdfs:domain rdf:resource="#西成药"/>
+    <rdfs:range rdf:resource="#西药性质"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A6">
+    <rdf:first rdf:resource="#西成药"/>
+    <rdf:rest rdf:nodeID="A2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#冰片">
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A5">
+    <owl:unionOf rdf:nodeID="A8"/>
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#蛇胆">
+    <具有化学成分 rdf:resource="#胆酸"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#八珍养血丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#丹参"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#地高辛片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#地高辛"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#灰黄霉素片">
+    <具有中药材成分 rdf:resource="#石膏"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#阿胶牡蛎口服液">
+    <具有中药材成分 rdf:resource="#牡蛎"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#甘露消毒丹">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#茵陈"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#中药成分或性质">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <owl:unionOf rdf:nodeID="A9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#中药酸性">
+    <rdf:type rdf:resource="#中药性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫酸亚铁">
+    <rdf:type rdf:resource="#硫酸盐"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#槐角">
+    <rdf:type rdf:resource="#中药材成分"/>
+    <具有化学成分 rdf:resource="#鞣质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#洛汀新">
+    <具有化学成分 rdf:resource="#洋地黄"/>
+    <具有西药性质 rdf:resource="#降压"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#异烟肼片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#异烟肼"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#冠心苏合丸">
+    <具有中药材成分 rdf:resource="#朱砂"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#皂苷">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#六味地黄丸">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#大黄"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="A14">
+    <rdf:first rdf:resource="#中药材成分"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#镁离子">
+    <rdf:type rdf:resource="#金属离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#胰岛素">
+    <具有西药性质 rdf:resource="#降糖"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#中药碱性">
+    <rdf:type rdf:resource="#中药性质"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#复方甘草麻黄碱片">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#麻黄"/>
+    <具有中药材成分 rdf:resource="#杏仁"/>
+    <具有中药材成分 rdf:resource="#甘草"/>
+    <具有中药材成分 rdf:resource="#石膏"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#麦芽片">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#麦芽"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#扑尔敏">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有离子成分 rdf:resource="#镁离子"/>
+    <具有离子成分 rdf:resource="#钙离子"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#朱砂">
+    <具有化学成分 rdf:resource="#硫化汞"/>
+    <具有离子成分 rdf:resource="#汞离子"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫化汞">
+    <rdf:type rdf:resource="#硫化物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#乳核散结片">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#昆布"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#谷氨酸片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有西药性质 rdf:resource="#西药酸性"/>
+    <具有化学成分 rdf:resource="#谷氨酸"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#利血平片">
+    <具有化学成分 rdf:resource="#生物碱"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#贝母">
+    <具有化学成分 rdf:resource="#秋水仙碱"/>
+    <rdf:type rdf:resource="#中药材成分"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#三七通舒胶囊">
+    <rdf:type rdf:resource="#中成药"/>
+    <具有中药材成分 rdf:resource="#三七"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#硫酸小诺米星">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#抗生素"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#摩罗丹">
+    <具有中药材成分 rdf:resource="#地榆"/>
+    <rdf:type rdf:resource="#中成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#二甲双胍">
+    <具有西药性质 rdf:resource="#降糖"/>
+    <rdf:type rdf:resource="#西成药"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#胆酸">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#盐酸可乐定片">
+    <rdf:type rdf:resource="#西成药"/>
+    <具有化学成分 rdf:resource="#可乐定"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="#氨茶碱">
+    <rdf:type rdf:resource="#有机化合物"/>
+  </rdf:Description>
+</rdf:RDF>
+
+<!-- Created with Protege (with OWL Plugin 3.5, Build 663)  http://protege.stanford.edu -->

@@ -1,0 +1,54 @@
+@prefix pi: <http://www.owl-ontologies.com/OntologyPI.owl#>.@include <RDFS>.@include <OWL>.
+
+# 酸碱中和
+[rule1: (?zcy pi:具有中药性质 pi:中药酸性), (?xy pi:具有西药性质 pi:西药碱性)-> (?zcy pi:禁忌 ?xy) ]
+[rule2: (?zcy pi:具有中药性质 pi:中药碱性), (?xy pi:具有西药性质 pi:西药酸性)-> (?zcy pi:禁忌 ?xy) ]
+
+# 抑制酶作用
+[rule3: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:鞣质), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:酶)-> (?zcy pi:禁忌 ?xy) ]
+[rule4: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:黄连素), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:酶)-> (?zcy pi:禁忌 ?xy) ]
+
+# 生成沉淀及络合物
+[rule5: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:蒽醌), (?xy rdf:type pi:西成药), (?xy pi:具有离子成分 ?hxcf), (?hxcf rdf:type pi:金属离子)-> (?zcy pi:禁忌 ?xy) ]
+[rule6: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:硫化汞), (?xy pi:具有西药性质 pi:还原性强)-> (?zcy pi:禁忌 ?xy) ]
+[rule7: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:鞣质), (?xy pi:具有西药性质 pi:西药碱性)-> (?zcy pi:禁忌 ?xy) ]
+[rule8: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:鞣质), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:抗生素)-> (?zcy pi:禁忌 ?xy) ]
+[rule9: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:鞣质), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:生物碱)-> (?zcy pi:禁忌 ?xy) ]
+[rule10: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:钙离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:阿托品)-> (?zcy pi:禁忌 ?xy) ]
+[rule11: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:镁离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:阿托品)-> (?zcy pi:禁忌 ?xy) ]
+[rule12: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:钙离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:异烟肼)-> (?zcy pi:禁忌 ?xy) ]
+[rule13: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:镁离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:异烟肼)-> (?zcy pi:禁忌 ?xy) ]
+[rule14: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:钙离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:抗生素)-> (?zcy pi:禁忌 ?xy) ]
+[rule15: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:镁离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:抗生素)-> (?zcy pi:禁忌 ?xy) ]
+[rule16: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:皂苷), (?xy rdf:type pi:西成药), (?xy pi:具有离子成分 ?hxcf), (?hxcf rdf:type pi:金属离子)-> (?zcy pi:禁忌 ?xy) ]
+[rule17: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:胆酸), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:奎尼丁)-> (?zcy pi:禁忌 ?xy) ]
+[rule18: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:槲皮素), (?xy rdf:type pi:西成药), (?xy pi:具有离子成分 ?hxcf), (?hxcf rdf:type pi:金属离子)-> (?zcy pi:禁忌 ?xy) ]
+[rule19: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:丹参酮), (?xy rdf:type pi:西成药), (?xy pi:具有离子成分 ?hxcf), (?hxcf rdf:type pi:金属离子)-> (?zcy pi:禁忌 ?xy) ]
+[rule20: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 ?lz),(?lz rdf:type pi:金属离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:喹诺酮)-> (?zcy pi:禁忌 ?xy) ]
+[rule21: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:鞣质), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:维生素B1)-> (?zcy pi:禁忌 ?xy) ]
+[rule22: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:鞣质), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:维生素B6)-> (?zcy pi:禁忌 ?xy) ]
+[rule23: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:鞣质), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:维生素C)-> (?zcy pi:禁忌 ?xy) ]
+[rule24: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:鞣质), (?xy rdf:type pi:西成药), (?xy pi:具有离子成分 ?hxcf), (?hxcf rdf:type pi:金属离子)-> (?zcy pi:禁忌 ?xy) ]
+[rule25: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:硫化砷), (?xy pi:具有西药性质 pi:还原性强)-> (?zcy pi:禁忌 ?xy) ]
+[rule26: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:铁离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:阿托品)-> (?zcy pi:禁忌 ?xy) ]
+
+# 发生药物拮抗作用
+[rule27: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:糖皮质激素), (?xy pi:具有西药性质 pi:降糖)-> (?zcy pi:禁忌 ?xy) ]
+[rule28: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:碘离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:异烟肼)-> (?zcy pi:禁忌 ?xy) ]
+[rule29: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:碘离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:酪氨酸)-> (?zcy pi:禁忌 ?xy) ]
+[rule30: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:肾上腺激素), (?xy pi:具有西药性质 pi:降糖)-> (?zcy pi:禁忌 ?xy) ]
+[rule31: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:皂苷), (?xy pi:具有西药性质 pi:西药酸性)-> (?zcy pi:禁忌 ?xy) ]
+
+# 产生毒副作用
+[rule32: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:麻黄碱), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:胍乙啶)-> (?zcy pi:禁忌 ?xy) ]
+[rule33: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:秋水仙碱), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:阿托品)-> (?zcy pi:禁忌 ?xy) ]
+[rule34: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:钙离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:地高辛)-> (?zcy pi:禁忌 ?xy) ]
+[rule35: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:钙离子), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:洋地黄)-> (?zcy pi:禁忌 ?xy) ]
+[rule36: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有离子成分 pi:汞离子), (?xy rdf:type pi:西成药), (?xy pi:具有离子成分 pi:碘离子)-> (?zcy pi:禁忌 ?xy) ]
+[rule37: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:麻黄碱), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:单胺氧化酶)-> (?zcy pi:禁忌 ?xy) ]
+[rule38: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:麻黄碱), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:异烟肼)-> (?zcy pi:禁忌 ?xy) ]
+[rule39: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:麻黄碱), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:地高辛)-> (?zcy pi:禁忌 ?xy) ]
+[rule40: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:麻黄碱), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:洋地黄)-> (?zcy pi:禁忌 ?xy) ]
+[rule41: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:氰甙), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:安定)-> (?zcy pi:禁忌 ?xy) ]
+[rule42: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:氰甙), (?xy pi:具有西药性质 pi:西药酸性)-> (?zcy pi:禁忌 ?xy) ]
+[rule43: (?zcy pi:具有中药材成分 ?zycf), (?zycf pi:具有化学成分 pi:鞣质), (?xy rdf:type pi:西成药), (?xy pi:具有化学成分 pi:磺胺)-> (?zcy pi:禁忌 ?xy) ]
